@@ -9,11 +9,11 @@ client.on('error', console.error);
 
 
 
-client.on('ready', () => console.log('ProBot Credits Miner Discord.js Script'));
+client.on('ready', () => console.log('Starting'));
 
-client.on('disconnect', () => console.log('PROBOT credits miner had disconnected!'));
+client.on('disconnect', () => console.log('disconnected!'));
 
-client.on('reconnecting', () => console.log('PROBOT credits miner is reconnecting...'));
+client.on('reconnecting', () => console.log('reconnecting...'));
 
 
 function timerFunc() {
